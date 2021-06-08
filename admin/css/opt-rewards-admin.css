@@ -1,0 +1,16 @@
+.opt_rw_general_row_wrap{width:100%}
+.opt_rw_general_row{width:80%; margin-left:12%;}
+.opt_wpr_general_label{width:35%;float:left;}
+.opt_rw_general_content{width:65%;float:left;}
+.opt_rw_general_content input[type=text], .opt_rw_general_content input[type=password], .opt_rw_general_content select, .opt_rw_general_content textarea{min-width:500px;}
+.opt_rw_general_content  input[type=password]{margin-bottom: 12px;}
+.opt_wpr_general_label label {font-size: 15px;font-weight: 500;}
+.opt_wpr_general_sign_title {background-color: #007cba;float: left;width: 90%;border-color: #007cba;text-align: center;margin :3% 7% 3% 7%;}
+.opt_wpr_general_sign_title h3{color:#fff;width: 95%}
+.opt_wpr_general_sign_title span{width: 5%}
+.opt_rw_general_row_wrap{ border-color: #007cba;}
+.opt_rw_general_content .note {width:70%;}
+.opt_rw_table .opt_rw_general_wrapper p.submit{margin-left: 10%;}
+.opt_rw_table .opt_rw_general_wrapper p .button-primary{padding: 8px 18px 8px 18px;font-size: 15px;}
+
+

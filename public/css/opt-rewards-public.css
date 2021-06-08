@@ -1,0 +1,395 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.opterrmsg {
+  color: #b22222;
+  font-size: 14px;
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  order: 20;
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm p.form-row-wide {
+  width: 100%
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm fieldset {
+  width: 100%
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm p:last-child {
+  order: 10;
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm fieldset {
+  order: 9;
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm p.form-row-last {
+  margin-right: 0px;
+  margin-left: auto;
+}
+.reward-enable label {
+  display: inline-block !important;
+}
+.woocommerce .u-columns .u-column2.col-2.fullreg {
+  width: 100% !important;
+}
+.join-reward-field span.optional {
+  display: none;
+}
+.woocommerce-password-strength.short,
+.woocommerce-password-strength.bad {
+  color: #b22222;
+}
+.woocommerce-page .cart-collaterals .loyalty-points {
+  float: left;
+  width: 48%;
+}
+.cart-collaterals h2 {
+  font-size: 3.6rem;
+}
+.redeem-points ul.promotion_data {
+  margin-left: 0;
+  list-style: none;
+}
+.apply-loyalty .form-row.form-row-wide {
+  float: left;
+  width: 337px;
+  max-width: calc(100% - 135px)
+}
+.apply-loyalty .form-row.form-row-wide + p #apply_loyalty {
+  padding: 15px 29px;
+}
+.apply-loyalty .form-row.form-row-wide + p {
+  margin-top: 28px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.reward-program input[type="radio"] {
+  margin: 0px 5px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+#apply-promotion {
+  margin-left: 0;
+  list-style: none;
+  background: #f2f2f2;
+  padding: 17px 17px 34px 17px;
+}
+.redeem-points ul.promotion_data {
+  max-height: 300px;
+  overflow: auto;
+  margin: 0;
+}
+.redeem-points ul.promotion_data li .rule_left {
+  float: left;
+  width: 170px;
+  position: relative
+}
+.redeem-points ul.promotion_data li .rule_left label {
+  font-size: 16px;
+  margin-left: 0
+}
+.redeem-points ul.promotion_data li .rule_right p {
+  font-size: 16px;
+  line-height: normal;
+}
+.redeem-points ul.promotion_data li .rule_right {
+  overflow: hidden;
+  padding-top: 3px;
+}
+.redeem-points ul.promotion_data li .rule_left .code_check {
+  margin-right: 4px;
+}
+.redeem-points ul.promotion_data li:last-child button {
+  padding: 14px 26px;
+}
+.opt-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.opt-loader img {
+  width: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+  animation: rotation 1s infinite linear;
+}
+.redeem-points ul.promotion_data li .rule_left input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.redeem-points ul.promotion_data li .rule_left {
+  float: left;
+  width: 183px;
+  position: relative;
+  padding-left: 25px;
+}
+.form-row.form-row-wide.byemail {
+  width: 337px;
+  float: left;
+  max-width: calc(100% - 135px)
+}
+.form-row.form-row-wide.byphone {
+  width: 337px;
+  float: left;
+  max-width: calc(100% - 135px)
+}
+.get_loyalty {
+  margin-top: 28px !important;
+  margin-left: 10px !important;
+  padding: 15px 24px !important;
+}
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-last {
+  margin-left: 20px;
+  width: 74%;
+}
+.woocommerce-cart .woocommerce form .form-row-first,
+.woocommerce-page form .form-row-first {
+  width: auto;
+}
+.woocommerce-cart .woocommerce form .form-row-last,
+.woocommerce-page form .form-row-last {
+  float: left;
+  margin-left: 20px;
+  width: auto
+}
+.redeem-points {
+  clear: both;
+}
+.loyaltybtn-row {
+  float: left;
+}
+.promo_btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.promotion_data input:disabled {
+  opacity: 0.4
+}
+.loyalty-points.checkout_loyalty {
+  clear: left;
+}
+#reward-program {
+  clear: left;
+  max-width: 490px;
+}
+#apply-promotion {
+  max-width: 651px;
+}
+.woocommerce-checkout h2 {
+  font-size: 3.6rem;
+}
+.woocommerce-checkout .form-row.form-row-last.reward-enable {
+  float: none;
+  margin-left: 97px;
+  margin-bottom: 0;
+}
+.woocommerce-checkout .form-row.form-row-first.reward-enable {
+  width: auto;
+}
+#login-pop h4 {
+  margin: 0 0 20px 0;
+  font-size: 21px;
+  color: #ff0000;
+}
+#login-pop label {
+  font-size: 16px;
+}
+#login-pop .opterrmsg {
+  margin-bottom: 20px;
+  display: block;
+  color: #ff0000;
+  font-size: 15px;
+}
+#login-pop .action.forgot_pwd {
+  color: #1979c3;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+#login-pop .fancybox-close-small {
+  background: transparent;
+}
+#login-pop #email,
+#login-pop #password {
+  margin-bottom: 20px;
+}
+#login-pop #email.required.opterror {
+  margin-bottom: 0;
+}
+.serach-promo {
+  float: left;
+  width: 100%;
+}
+.serach-promo input[type="text"] {
+  float: right;
+  width: 50%;
+  border: none !important;
+  border-bottom: 2px solid !important;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+  padding-left: 1rem;
+  outline: none !important;
+}
+.apply-promotion {
+  clear: both;
+}
+.promotion_data input[type="checkbox"]:checked::before {
+  margin: -0.3rem 0 0 -0.3rem;
+}
+.woocommerce-additional-fields .join-reward-field input[type="checkbox"]:checked::before {
+  margin: -0.3rem 0 0 -0.3rem;
+}
+span.nudgedescription {
+  display: block;
+  font-weight: 600;
+  animation: blinkingText 1.5s infinite;
+}
+.guest-popup.auth-otp h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-transform: initial;
+}
+.guest-popup.auth-otp input[type="submit"] {
+  margin-top: 20px;
+  float: left;
+}
+#otp-promotion-popup .fancybox-close-small,
+#otp-popup .fancybox-close-small {
+  background: transparent;
+}
+.guest-popup.auth-otp span.opterrmsg {
+  display: block;
+}
+.guest-popup.auth-otp form#otp_form {
+  margin: 15px 0;
+}
+.guest-popup.auth-otp #resendLink,
+.guest-popup.auth-otp #promoresendLink {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.guest-popup.auth-otp .repop {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  margin-top: 37px;
+  padding-left: 15px;
+}
+.guest-popup.auth-otp .success {
+  color: green;
+}
+.guest-popup.auth-otp .error {
+  color: red;
+}
+form#apply-loyalty button {
+  padding: 15px 24px;
+}
+.guest-popup.auth-otp #dvresendotp,
+.guest-popup.auth-otp #promoresendotp {
+  font-size: 16px;
+  order: 2;
+}
+.guest-popup.auth-otp #dvresendotp #otpCount,
+.guest-popup.auth-otp #promoresendotp #promoOtpCount {
+  color: #cd2653;
+}
+.checkout_loyalty {
+  width: 50%;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  100% {
+    color: red;
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .woocommerce-page .cart-collaterals .loyalty-points {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .cart-collaterals .loyalty-points h2 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .apply-loyalty .form-row.form-row-wide {
+    float: left;
+    width: 100%;
+    max-width: 100%
+  }
+  .form-row.form-row-wide.byemail {
+    max-width: 100%;
+  }
+  .form-row.form-row-wide.byphone {
+    max-width: 100%;
+  }
+  .apply-loyalty .form-row.form-row-wide + p {
+    margin-top: 0;
+    margin-left: 0
+  }
+  .redeem-points ul.promotion_data li .rule_left {
+    width: 100%
+  }
+  .redeem-points ul.promotion_data li .rule_right {
+    overflow: visible;
+    width: 100%
+  }
+  .redeem-points ul.promotion_data li .rule_left input[type="checkbox"] {
+    left: 0;
+    top: 5px;
+  }
+  .form-row.form-row-wide.byemail {
+    width: 100%;
+  }
+  .form-row.form-row-wide.byphone {
+    width: 100%;
+  }
+  .get_loyalty {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  #login-pop {
+    padding: 30px 20px;
+  }
+  #login-pop h4 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+  }
+  #login-pop .action.forgot_pwd {
+    margin-left: 10px;
+  }
+  .guest-popup.auth-otp .repop {
+    padding-left: 0;
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 15px;
+  }
+  .guest-popup.auth-otp #promoresendotp,
+  .guest-popup.auth-otp #dvresendotp {
+    margin-top: 6px;
+  }
+}
